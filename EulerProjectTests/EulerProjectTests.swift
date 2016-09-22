@@ -24,8 +24,15 @@ class EulerProjectTests: XCTestCase {
         
     }
     
-    func testFindPrimes() {
+    func testSumSquareDiff() {
+        let expectedSum1 = 2640
+        let actualSum1 = sumSquareDiff(of: 10)
         
+        let expectedSum2 = 25164150
+        let actualSum2 = sumSquareDiff(of: 100)
+        
+        XCTAssertEqual(expectedSum1, actualSum1)
+        XCTAssertEqual(expectedSum2, actualSum2)
     }
     
 }
