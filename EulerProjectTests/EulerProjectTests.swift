@@ -35,4 +35,14 @@ class EulerProjectTests: XCTestCase {
         XCTAssertEqual(expectedSum2, actualSum2)
     }
     
+    func testSmallestMultipleOfOneThroughTwenty() {
+        let expectedMultiple1 = 232792560
+        let actualMultiple1 = smallestMultipleOfOneThroughTwenty()
+
+        XCTAssertEqual(expectedMultiple1, actualMultiple1)
+    
+    }
+    
+    
+    
 }

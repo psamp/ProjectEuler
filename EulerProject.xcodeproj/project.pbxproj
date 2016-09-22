@@ -12,6 +12,7 @@
 		7479C3111D92FB5A0071C4F9 /* EulerProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7479C3031D92FB590071C4F9 /* EulerProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7479C31B1D9317540071C4F9 /* MutiplesOfThreeAndFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479C31A1D9317540071C4F9 /* MutiplesOfThreeAndFive.swift */; };
 		7479C31F1D9390380071C4F9 /* SumSquareDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479C31E1D9390380071C4F9 /* SumSquareDifference.swift */; };
+		7479C3211D93A4890071C4F9 /* SmallestMultipleOfOneThroughTwenty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479C3201D93A4890071C4F9 /* SmallestMultipleOfOneThroughTwenty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		7479C3101D92FB5A0071C4F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7479C31A1D9317540071C4F9 /* MutiplesOfThreeAndFive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MutiplesOfThreeAndFive.swift; path = EulerProject/MutiplesOfThreeAndFive.swift; sourceTree = SOURCE_ROOT; };
 		7479C31E1D9390380071C4F9 /* SumSquareDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumSquareDifference.swift; sourceTree = "<group>"; };
+		7479C3201D93A4890071C4F9 /* SmallestMultipleOfOneThroughTwenty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallestMultipleOfOneThroughTwenty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				7479C3041D92FB590071C4F9 /* Info.plist */,
 				7479C31A1D9317540071C4F9 /* MutiplesOfThreeAndFive.swift */,
 				7479C31E1D9390380071C4F9 /* SumSquareDifference.swift */,
+				7479C3201D93A4890071C4F9 /* SmallestMultipleOfOneThroughTwenty.swift */,
 			);
 			path = EulerProject;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7479C31B1D9317540071C4F9 /* MutiplesOfThreeAndFive.swift in Sources */,
+				7479C3211D93A4890071C4F9 /* SmallestMultipleOfOneThroughTwenty.swift in Sources */,
 				7479C31F1D9390380071C4F9 /* SumSquareDifference.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
