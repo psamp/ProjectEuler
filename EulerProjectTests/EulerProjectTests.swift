@@ -43,6 +43,20 @@ class EulerProjectTests: XCTestCase {
     
     }
     
-    
+    func testSumDigitsOfFactorial() {
+        let expectedSum1 = 27
+        let actualSum1 = sumDigitsOfFactorial(of: 10)
+        
+        let expectedSum2 = 3
+        let actualSum2 = sumDigitsOfFactorial(of: 5)
+        
+        let expectedSum3 = 9
+        let actualSum3 = sumDigitsOfFactorial(of: 7)
+        
+        XCTAssertEqual(expectedSum1, actualSum1)
+        XCTAssertEqual(expectedSum2, actualSum2)
+        XCTAssertEqual(expectedSum3, actualSum3)
+        
+    }
     
 }
